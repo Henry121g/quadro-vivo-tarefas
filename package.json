@@ -10,7 +10,8 @@
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "seed:demo": "tsx --env-file=.env.local scripts/seed-demo.mts"
+    "seed:demo": "tsx --env-file=.env.local scripts/seed-demo.mts",
+    "test:tempo-real": "tsx --env-file=.env.local scripts/realtime-check.mts"
   },
   "dependencies": {
     "@sentry/nextjs": "^11.2.0",
