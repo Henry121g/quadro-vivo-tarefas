@@ -3,7 +3,7 @@
 > Projeto de portfólio com **dados fictícios**, desenvolvido com assistência de IA (Claude Code).
 > Nenhuma equipe, pessoa ou tarefa é real.
 
-**Demonstração:** _pendente de deploy_ · **CI:** ver aba Actions
+**Demonstração:** [quadro-vivo-tarefas.vercel.app](https://quadro-vivo-tarefas.vercel.app) (contas de demonstração em configuração) · **CI:** ver aba Actions
 
 <!-- Screenshots reais (incluindo duas sessões lado a lado) serão adicionadas após o deploy. -->
 
