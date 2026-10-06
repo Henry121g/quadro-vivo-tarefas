@@ -1,7 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from "react";
-import { Alert, buttonStyles } from "@/components/ui";
+import { Alert } from "@/components/ui";
+import { buttonStyles } from "@/components/button-styles";
 import { canEdit, type MemberRole } from "@/lib/auth-roles";
 import {
   afterForDrop,

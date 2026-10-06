@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { buttonStyles } from "@/components/ui";
+import { buttonStyles } from "@/components/button-styles";
 import { cardsOf, sortedColumns, type BoardState, type Card } from "@/lib/board-state";
 
 /** Alternativa acessível ao arrastar e soltar (teclado, leitores de tela e telas de toque). */

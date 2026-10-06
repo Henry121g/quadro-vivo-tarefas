@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Alert, buttonStyles } from "@/components/ui";
+import { Alert } from "@/components/ui";
+import { buttonStyles } from "@/components/button-styles";
 import { normalizeCard, type Card } from "@/lib/board-state";
 import { friendlyDbError, isConflict } from "@/lib/errors";
 import { createClient } from "@/lib/supabase/client";

@@ -1,7 +1,8 @@
 "use client";
 
 import { useActionState, useState } from "react";
-import { Alert, buttonStyles, Field, SubmitButton } from "@/components/ui";
+import { Alert, Field, SubmitButton } from "@/components/ui";
+import { buttonStyles } from "@/components/button-styles";
 import { acceptInvite, createBoard, createInvite } from "./actions";
 
 export function NewBoardForm({ workspaceId }: { workspaceId: string }) {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { buttonStyles } from "@/components/ui";
+import { buttonStyles } from "@/components/button-styles";
 import { canManage, requireViewer, ROLE_LABEL, type MemberRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { changeRole, removeMember, revokeInvite } from "@/app/painel/actions";
